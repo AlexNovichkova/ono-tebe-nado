@@ -35,11 +35,11 @@
 
 .menu__link {
   text-decoration: none;
+  border-bottom: 1px solid black;
 }
 
 .menu__link_active {
-  text-decoration: none;
-  border-bottom: 1px solid black;
+  border-bottom: none;
 }
 
 .header__logo {
@@ -75,7 +75,7 @@ address {
 .address__list-item {
   list-style-type: none;
 }
-.address__link_active {
+.address__link {
   text-decoration: none;
   border-bottom: 1px solid black;
 }
